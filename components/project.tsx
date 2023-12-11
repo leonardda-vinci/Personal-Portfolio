@@ -3,7 +3,7 @@
 import React, { useRef } from 'react'
 import Image from 'next/image';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import gymsbond from "@/public/gyms-bond.png";
+import gymsbond from "@/public/gyms-bond.jpg";
 import { projectsData } from '@/lib/data';
 
 type ProjectProps = (typeof projectsData)[number];
