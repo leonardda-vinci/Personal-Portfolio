@@ -3,6 +3,7 @@
 import React, { useRef } from 'react'
 import Image from 'next/image';
 import { motion, useScroll, useTransform } from 'framer-motion';
+import gymsbond from "@/public/gyms-bond.png";
 import { projectsData } from '@/lib/data';
 
 type ProjectProps = (typeof projectsData)[number];
@@ -10,8 +11,7 @@ type ProjectProps = (typeof projectsData)[number];
 export default function Project({ 
   title, 
   description, 
-  tags, 
-  imageUrl 
+  tags
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -45,7 +45,7 @@ export default function Project({
     </div>
     
       <Image 
-      src={imageUrl} 
+      src={gymsbond} 
       alt="Project I worked on." 
       quality={95}
       className="absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl transition group-hover:scale-[1.04] 

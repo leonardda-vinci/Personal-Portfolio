@@ -1,5 +1,5 @@
 import React from "react";
-import gymsbond from "@/public/gyms-bond.png";
+
 import { CgWorkAlt } from "react-icons/cg";
 
 
@@ -47,7 +47,6 @@ export const projectsData = [
     description: "I worked as one of the developers of this capstone project. In this application, users can workout in homes or in the gym with the available regimes in the app. Also, users can find a gym buddies.",
     tags: ["Java", "PHP", "MySql", "APIs"],
     date: "2022",
-    imageUrl: gymsbond,
   },
 ] as const;
 
