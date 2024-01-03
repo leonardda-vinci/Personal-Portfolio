@@ -1,6 +1,8 @@
 import React from "react";
 
 import { CgWorkAlt } from "react-icons/cg";
+import gymsbond from "@/public/gyms-bond.jpg"
+import hilink from "@/public/hilink.png"
 
 
 export const links = [
@@ -47,6 +49,14 @@ export const projectsData = [
     description: "I worked as one of the developers of this capstone project. In this application, users can workout in homes or in the gym with the available regimes in the app. Also, users can find a gym buddies.",
     tags: ["Java", "PHP", "MySql", "APIs"],
     date: "2022",
+    imageUrl: gymsbond,
+  },
+  {
+    title: "Hilink",
+    description: "Hilink is a Travel App. It is a Fully Responsive Modern UI/UX Website",
+    tags: ["ReactJS", "NextJS", "Tailwind CSS"],
+    date: "2022",
+    imageUrl: hilink,
   },
 ] as const;
 
